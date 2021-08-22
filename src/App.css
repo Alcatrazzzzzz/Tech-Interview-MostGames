@@ -1,0 +1,80 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.search-container p {
+  text-align: center;
+}
+
+.search-container div,
+.search-container button {
+  height: fit-content;
+  margin-left: 10px;
+}
+.search-container div {
+  padding: 3px 5px;
+  width: 30%;
+}
+
+.search-container button {
+  padding: 3px 20px;
+}
+
+.search-input {
+  border: 1px solid black;
+}
+
+table {
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+tr td {
+  text-align: center;
+  padding: 10px;
+}
+
+tr :first-child {
+  text-align: left;
+}
+
+.table-head {
+  text-align: center;
+  font-weight: bold;
+}
+.table-head :first-child {
+  text-align: center;
+}
+
+.color-red {
+  color: red;
+}
+
+@media all and (max-width: 1200px) {
+}
+
+@media all and (max-width: 812px) {
+  .search-container {
+    flex-direction: column;
+  }
+  .search-container button {
+    margin: 20px 0;
+    width: 100%;
+    padding: 8px 16px;
+  }
+
+  .search-container div {
+    width: 100%;
+    margin: 0;
+  }
+
+  table {
+    font-size: 12px;
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 480px) {
+}
